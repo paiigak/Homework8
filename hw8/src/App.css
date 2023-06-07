@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 2%;
+  padding: 12px 0;
+  height: auto;
+}
+
+.Nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+.Footer-container{
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;;
+  margin: auto;
+  padding: 12px 0;
+  height: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-top: 1px solid white;
+}
+
+.Blog .Pod {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.Blog-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
